@@ -1,0 +1,6 @@
+Iuin in0 0 DC 0A AC 1A SIN(0A 900A 100000Hz 0s 55000.00000000001Hz)
+Ralmost_zero in0 Ring_in 1e-09Ohm
+Rrin Ring_in 1 1e-09Ohm
+Xnlindv2 1 2 nlindv2
+Rrout 2 Ring_out 1e-09Ohm
+Rr0 Ring_out 0 1
