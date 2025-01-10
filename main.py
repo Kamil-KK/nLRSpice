@@ -1,11 +1,10 @@
 
 import numpy as np
 from scipy import integrate
-
 import matplotlib.pyplot as plt
 
 from lib.utils import  LRCircuit, define_function , create_nonlinear_device
-from PySpice.Unit import *
+
 
 
 def L_model(x,a,b,c,d):
@@ -30,7 +29,7 @@ current_array = np.array([  0. ,   6.2,  12.4,  27.9,  52.8,  80.7,  96.2, 114.9
        212. , 217.3, 222. , 227.5, 248.4, 279.4, 310.4, 341.5, 372.5,#-
        403.6, 434.7, 496.7, 620.9, 800. ])
 
-# L,R(i)
+# L,R(i) - for f=10**5
 L   = L_model(current_array , a=0.0001,b=40,c=170,d=10**-7)
 R   = R_model(current_array , a=7,b=110,c=190,sigma=40,amp=50,mu=185,r0=3*10**-5)
 
@@ -86,6 +85,8 @@ with open("raw_spice_all.txt", "w") as file:
 #######################################################
 # EXAMPLE OF USE WITH Pyspice
 #######################################################
+
+from PySpice.Unit import *
 
 #start building the circuit using Pyspice
 
