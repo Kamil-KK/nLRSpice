@@ -130,7 +130,7 @@ plt.xlabel('Time (us)')
 plt.ylabel('Voltage (V)/Current (A)')
 plt.grid()
 
-plt.plot(time_sim*10**6 ,voltage_sim ,label='voltage on LR',color='red',linewidth=2)
+plt.plot(time_sim*10**6 ,voltage_sim ,label='voltage',color='red',linewidth=2)
 plt.plot(time_sim*10**6 ,current_sim ,label='current',color='black',linewidth=2)
 plt.legend(loc='best')
 plt.savefig('uit.png', bbox_inches='tight')
