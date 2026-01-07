@@ -31,7 +31,7 @@ The result of Spice simulation:
 
 Do you like the library? Please cite:
 
-[1] Kutorasinski, K., Pawłowski, J., Molas, M., & Szewczyk, M. (2025). Nonlinear Magnetic Ring Model: From Impedance Measurements to Time Domain Simulations. XXX, XXX 
+[1] Kutorasinski, K., Pawłowski, J., Molas, M., & Szewczyk, M. (2025). Nonlinear Magnetic Ring Model Based on Impedance Measurements with DC-bias Current. XXX, XXX 
 
 [2] Leszczynski, P., Kutorasinski, K., Szewczyk, M., & Pawłowski, J. (2024). Machine-Learned Models for Power Magnetic Material Characteristics. IEEE Transactions on Power Electronics.
 [https://ieeexplore.ieee.org/document/10684126](https://ieeexplore.ieee.org/document/10684126)
