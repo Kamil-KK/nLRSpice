@@ -9,6 +9,7 @@ This library provides procedures for building SPICE code for nonlinear LR elemen
 
 <img src="LR_single.png" width="200">
 
+<img width="1848" height="1007" alt="image" src="https://github.com/user-attachments/assets/b4559c9d-fb2b-411c-9be1-bd8c7d0a53d3" />
 
 
 ## What are the main features ?
