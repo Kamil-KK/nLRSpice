@@ -7,10 +7,11 @@
 This library provides procedures for building SPICE code for nonlinear LR elements. 
 
 
-<img src="LR_single.png" width="200">
+
 
 <img width="1848" height="1007" alt="image" src="https://github.com/user-attachments/assets/b4559c9d-fb2b-411c-9be1-bd8c7d0a53d3" />
-
+Fig 1. Schematic of the implementation of parallel-connected nonlinear LR elements in SPICE. On the left is a conceptual diagram, and on the right is its implementation using the basic elements of SPICE syntax. The 'nlind1'
+ implementation corresponds to a nonlinear LR element where $R(i)/L(i)=\omega=\text{const}$, whereas 'nlind2' allows this ratio to vary, $R(i)/L(i)=\omega(i)$.
 
 ## What are the main features ?
 
